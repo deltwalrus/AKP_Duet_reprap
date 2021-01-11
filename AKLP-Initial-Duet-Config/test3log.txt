@@ -1,0 +1,5 @@
+2020-02-11 12:04:58 Event logging started
+2020-02-11 12:04:59 HTTP client 192.168.1.18 disconnected
+2020-02-11 12:05:00 Error: Temperature reading fault on heater 2: unknown temperature sensor channel
+2020-02-11 12:05:17 HTTP client 192.168.1.18 login succeeded
+2020-02-11 12:05:46 Warning: VIN under-voltage event (9.5V)

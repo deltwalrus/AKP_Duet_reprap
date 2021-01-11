@@ -1,0 +1,8 @@
+2020-02-11 12:04:28 Event logging started
+2020-02-11 12:04:58 Event logging stopped
+2020-06-11 16:36:53 Event logging started
+2020-06-11 16:37:42 Warning: VIN under-voltage event (9.5V)
+2021-01-10 15:46:37 Event logging started
+2021-01-10 15:54:30 Event logging stopped
+2021-01-10 15:54:30 Event logging started
+2021-01-10 15:59:59 Warning: VIN under-voltage event (9.5V)
