@@ -1,11 +1,11 @@
-; config-override.g file generated in response to M500 at 2021-01-11 16:17
+; config-override.g file generated in response to M500 at 2021-01-18 15:10
 ; This is a system-generated file - do not edit
 ; Delta parameters
-M665 L304.130:304.130:304.130 R134.638 H203.589 B105.0 X-0.477 Y-0.304 Z0.000
-M666 X-0.910 Y0.111 Z0.799 A0.00 B0.00
+M665 L304.130:304.130:304.130 R139.848 H203.646 B105.0 X-0.314 Y-0.359 Z0.000
+M666 X0.316 Y-0.132 Z-0.185 A0.00 B0.00
 ; Heater model parameters
 M307 H0 A90.0 C700.0 D10.0 S1.00 V0.0 B1
-M307 H1 A292.8 C105.1 D3.6 S1.00 V12.7 B0
+M307 H1 A387.0 C128.3 D3.1 S1.00 V12.7 B0
 M307 H2 A340.0 C140.0 D5.5 S1.00 V0.0 B0
 M307 H3 A340.0 C140.0 D5.5 S1.00 V0.0 B0
 M307 H4 A340.0 C140.0 D5.5 S1.00 V0.0 B0

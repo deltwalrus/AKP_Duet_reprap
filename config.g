@@ -51,7 +51,7 @@ M574 X2 Y2 Z2 S1                                   ; Set active high endstops
 ;M558 P4 H5 F120 T6000                             ; Set Z probe type to switch and the dive height + speeds -- OLD SETTINGS
 M558 P8 R0.4 F1200 H10 T6000			   ; Set Z probe type to digital output (nozzle), settings per Duet recommendation
 ;G31 P1000 X0 Y0 Z15.51                            ; Set Z probe trigger value, offset and trigger height -- OLD SETTINGS
-G31 P100 X0 Y0 Z-0.32				   ; Set Z probe trigger value, offset and trigger height
+G31 P100 X0 Y0 Z-0.22				   ; Set Z probe trigger value, offset and trigger height
 M557 R105 S20                                      ; Define mesh grid
 
 ; Heaters

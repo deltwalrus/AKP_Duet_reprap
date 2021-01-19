@@ -1,0 +1,26 @@
+2020-02-11 12:04:28 Event logging started
+2020-02-11 12:04:58 Event logging stopped
+2020-06-11 16:36:53 Event logging started
+2020-06-11 16:37:42 Warning: VIN under-voltage event (9.5V)
+2021-01-10 15:46:37 Event logging started
+2021-01-10 15:54:30 Event logging stopped
+2021-01-10 15:54:30 Event logging started
+2021-01-10 15:59:59 Warning: VIN under-voltage event (9.5V)
+2021-01-11 20:05:39 Event logging started
+2021-01-11 20:06:31 Calibrated 6 factors using 10 points, deviation before 1.985 after 0.147
+2021-01-11 20:06:45 HTTP client 192.168.1.33 login succeeded
+2021-01-11 20:12:42 HTTP client 192.168.1.23 login succeeded
+2021-01-11 20:14:37 Auto tune heater 1 completed in 248 sec
+Use M307 H1 to see the result, or M500 to save the result in config-override.g
+2021-01-11 20:16:16 Started printing file 0:/gcodes/AKP_calicat.gcode
+2021-01-11 20:19:47 Calibrated 6 factors using 10 points, deviation before 0.304 after 0.057
+2021-01-11 20:20:25 Resume state saved
+2021-01-11 20:20:26 Printing paused at X13.1 Y-11.8 Z0.3
+2021-01-11 20:20:29 Cancelled printing file 0:/gcodes/AKP_calicat.gcode, print time was 0h 4m
+2021-01-11 20:21:07 Started printing file 0:/gcodes/AKP_calicat.gcode
+2021-01-11 20:21:32 Calibrated 6 factors using 10 points, deviation before 0.767 after 0.398
+2021-01-11 20:25:34 Resume state saved
+2021-01-11 20:25:35 Printing paused at X7.0 Y-7.0 Z2.1
+2021-01-11 20:25:37 Cancelled printing file 0:/gcodes/AKP_calicat.gcode, print time was 0h 4m
+2021-01-11 21:04:17 HTTP client 192.168.1.23 login succeeded
+2021-01-11 21:04:56 Warning: VIN under-voltage event (9.5V)

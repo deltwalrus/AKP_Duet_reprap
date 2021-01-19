@@ -51,7 +51,7 @@ M574 X2 Y2 Z2 S1                                   ; Set active high endstops
 ;M558 P4 H5 F120 T6000                             ; Set Z probe type to switch and the dive height + speeds -- OLD SETTINGS
 M558 P8 R0.4 F1200 H10 T6000			   ; Set Z probe type to digital output (nozzle), settings per Duet recommendation
 ;G31 P1000 X0 Y0 Z15.51                            ; Set Z probe trigger value, offset and trigger height -- OLD SETTINGS
-G31 P100 X0 Y0 Z-0.22				   ; Set Z probe trigger value, offset and trigger height
+G31 P100 X0 Y0 Z-0.36				   ; Set Z probe trigger value, offset and trigger height
 M557 R105 S20                                      ; Define mesh grid
 
 ; Heaters
@@ -59,7 +59,6 @@ M305 P0 T100000 B4138 C0 R4700                     ; Set thermistor + ADC parame
 M143 H0 S120                                       ; Set temperature limit for heater 0 to 120C
 M305 P1 T100000 B4138 C0 R4700                     ; Set thermistor + ADC parameters for heater 1
 M143 H1 S280                                       ; Set temperature limit for heater 1 to 280C
-M307 H1 A292.7 C101.0 D3.0 S1.00 V12.7 B0.         ; Result of 11 Jan 2021 PID auto-tuning (240C limit)
 
 ; Fans
 M106 P0 S0.3 I0 F500 H-1                           ; Set fan 0 value, PWM signal inversion and frequency. Thermostatic control is turned off
